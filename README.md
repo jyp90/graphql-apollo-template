@@ -16,3 +16,10 @@ $ npm i convert-csv-to-json
 ```
 $ npm i graphql apollo-server
 ```
+
+## DBTester.js
+
+```
+$ npm i
+$ nodemon dbtester.js
+```
