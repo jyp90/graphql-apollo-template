@@ -8,7 +8,6 @@ $ npm i nodemon --save-dev
 
 ```
 $ npm i convert-csv-to-json
-
 ```
 
 ## Install graphql & apollo-server
@@ -17,7 +16,7 @@ $ npm i convert-csv-to-json
 $ npm i graphql apollo-server
 ```
 
-## DBTester.js
+## Run DBTester as nodemon
 
 ```
 $ npm i
