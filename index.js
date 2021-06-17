@@ -4,7 +4,7 @@ const { ApolloServer, gql } = require('apollo-server')
 const typeDefs = gql`
     type Query {
         teams: [Team]
-    
+        equipments: [Equipment]
     }
     type Team {
         id: Int
@@ -13,11 +13,18 @@ const typeDefs = gql`
         extension_number: String
         mascot: String
     }
+    type Equipment {
+        id: String
+        used_by: String
+        count: Int
+        new_or_used: String
+    }
 `
 
 const resolvers = {
     Query: {
-        teams: () => database.teams
+        teams: () => database.teams,
+        equipments: () => database.equipments
     }
 }
 

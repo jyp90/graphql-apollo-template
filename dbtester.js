@@ -1,2 +1,2 @@
 const database = require('./db/database')
-console.log(database)
+console.log(database.equipments)
