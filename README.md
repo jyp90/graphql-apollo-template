@@ -23,3 +23,20 @@ $ npm i graphql apollo-server
 $ npm i
 $ nodemon dbtester.js
 ```
+
+## Connect to Apollo Server
+http://localhost:4000
+
+### Query
+```json
+query {
+  equipments {
+    id
+    used_by
+    count
+
+  }
+
+}
+
+```
