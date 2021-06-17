@@ -1,2 +1,10 @@
 const database = require('./db/database')
-console.log(database.people[1])
+const { ApolloServer, gql } = require('apollo-server')
+
+const typeDefs = gql`
+
+`
+
+const resolvers = {
+
+}
